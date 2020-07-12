@@ -15,6 +15,7 @@ class CursoController extends Controller
      */
     public function index()
     {
+        $asd;
         if(Auth::user()->categoria == "Admin" || Auth::user()->categoria == "Gestor")
         {
             $curso = Curso::all();
