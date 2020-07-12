@@ -26,6 +26,8 @@ class CursoDiscController extends Controller
      */
     public function create()
     {
+        $cayo;
+        $domingos;
         //
     }
 
